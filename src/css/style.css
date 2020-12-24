@@ -496,12 +496,13 @@ label {
 /*News*/
 
 .news {
-    width: 1140px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .left__news {
-    width: 25%;
+    width: 23%;
 }
 
 .news-h {
@@ -575,6 +576,90 @@ label {
     color: #ff5816;
     text-decoration: underline;
 }
+/* Slider_Box */
+.banner-box__info{
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 16px;
+    background: #e3e5eb;
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px 20px;
+}
+.banner-box__info span{
+    color: #4673ab;
+    font-weight: 700;
+}
+.banner-box__slider{
+    max-width: 846px;
+    margin-top: 32px;
+    position: relative;
+}
+.banner-box__slider img{
+    border-radius: 10px;
+}
+.banner-box__slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    z-index: 5;
+}
+.banner-box__slider-btnprev{
+    left: 20px; 
+}
+.banner-box__slider-btnnext{
+    right: 20px;
+}
+.banner-box__slider-link{
+    position: absolute;
+    bottom: 50px;
+    z-index: 10;
+    display: inline-block;
+    width: 154px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 9px 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 0 #c4c4c4;
+    margin-left: 66px;
+    text-transform: uppercase;
+    color: #4673ab;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+}
+.banner-box__slider-link:hover{
+    background-color: #e0dede;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+}
+.slick-dots li{
+    display: inline-block;
+    padding: 5px 0;
+    margin-right: 3px;
+}
+.slick-dots button{
+    padding: 0;
+    font-size: 0;
+    margin: 0;
+    outline: none;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.slick-active button{
+    background-color: #ff5816;
+}
+
 
 @media only screen and (max-width: 1139px) {
     .assortmentMenu__body {
