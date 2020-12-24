@@ -6,6 +6,7 @@
 }
 
 html, body {
+    font-family: 'Roboto', sans-serif;
     height: 100%;
 }
 
@@ -304,6 +305,89 @@ label {
 
 .second:hover {
     opacity: 1;
+}
+
+/*News*/
+
+.news {
+    width: 1140px;
+    margin-top: 20px;
+}
+
+.left__news {
+    width: 25%;
+}
+
+.news-h {
+    color: #2c3333;
+    font-size: 110%;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: #dbdee6 1px solid;
+}
+
+.news-list {
+    margin-top: 30px;
+}
+
+.news-list .news-p {
+    width: 210px;
+    font-size: 80%;
+
+}
+
+.news-list .news-p a {
+    color: #4673ab;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.news-p a:hover {
+    color: #ff5816;
+    text-decoration: underline;
+}
+
+.news-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: #dbdee6 1px dashed;
+}
+
+.news-list .img {
+    width: 60px;
+}
+.news-date {
+    color: #040d0d;
+    text-transform: lowercase;
+    margin-top: -20px;
+}
+
+.news-date div {
+    background: white;
+    display: inline-block;
+    color: #ff5816;
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 27px;
+    width: 37px;
+    border-radius: 5px;
+
+}
+.news-list .img {
+    text-align: center;
+    text-decoration: none;
+}
+
+.news-all {
+    font-size: 80%;
+    color: #4673ab;
+}
+.news-all:hover {
+    color: #ff5816;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1139px) {
