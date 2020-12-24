@@ -8,7 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>task 3</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -199,7 +201,7 @@
                                     <img class="hdr__bottom-basket-img" src="images/ico_cart.svg">
                                     <p class="hdr__bottom-basket-text">Корзина</p>
                                     <p>
-                                        <span class="hdr__bottom-total-products">4</span> / 
+                                        <span class="hdr__bottom-total-products">4</span> /
                                         <span class="hdr__bottom-total-price">4 000</span>p.
                                     </p>
                                 </a>
@@ -305,9 +307,42 @@
                         <li><a href="" class="news-all">Все новости</a></li>
                     </ul>
                 </div>
+                <!-- Slider_Box -->
+                <div class="news__banner-box">
+                    <div class="banner-box__info">
+                        <b>Более 2000 товаров</b> от 40+ производителей в одном магазине.
+                        <span>Любые решения под ключ.</span>
+                    </div>
+                    <div class="banner-box__slider">
+                        <div class="banner-box__slider-item" href="#">
+                            <img src="images/slider_img1.jpg" alt="slide1">
+                            <a class="banner-box__slider-link" href="#">Подробнее</a>
+                        </div>
+                        <div class="banner-box__slider-item" href="#">
+                            <img src="images/slider_img1.jpg" alt="slide2">
+                            <a class="banner-box__slider-link" href="#">Подробнее</a>
+                        </div>
+                        <div class="banner-box__slider-item" href="#">
+                            <img src="images/slider_img1.jpg" alt="slide3">
+                            <a class="banner-box__slider-link" href="#">Подробнее</a>
+                        </div>
+                        <div class="banner-box__slider-item" href="#">
+                            <img src="images/slider_img1.jpg" alt="slide4">
+                            <a class="banner-box__slider-link" href="#">Подробнее</a>
+                        </div>
+                        <div class="banner-box__slider-item" href="#">
+                            <img src="images/slider_img1.jpg" alt="slide5">
+                            <a class="banner-box__slider-link" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <button class="banner-box__slider-btn banner-box__slider-btnprev"><img src="../images/arrow_prev.png" alt=""></button>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
