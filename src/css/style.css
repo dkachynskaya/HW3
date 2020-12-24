@@ -836,7 +836,6 @@ label {
     background-color: #ff5816;
 }
 
-
 @media only screen and (max-width: 1139px) {
     .news {
         width: 1140px;
@@ -853,6 +852,73 @@ label {
     .assortmentMenu__body {
         display: none;
     }
+}
+
+
+/* Section Buy_Now */
+.buy-now__header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    background: url(../images/border.gif) center center repeat-x;
+}
+.buy-now__header > p{ 
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    color: #040d0d;
+    background-color: #fff; 
+    padding-right: 7px;
+}
+.buy-now__list-img{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 45px;
+    align-items: center;
+}
+.buy-now__list-link{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.buy-now__link-item{
+    flex-basis: 23%;
+}
+.buy-now__list-link a{
+    color: #4673ab;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Section Brands */
+
+.brands__header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    background: url(../images/border.gif) center center repeat-x;
+}
+.brands__header > p{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    color: #040d0d;
+    background-color: #fff; 
+    padding-right: 20px;
+}
+.brands__header > a{
+    font-size: 13px;
+    color: #4673ab;
+    background-color: #fff;
+    padding-left: 10px;
+}
+.brands__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 50px 0;
+    align-items: center;
 }
 
 
