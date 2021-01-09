@@ -1037,6 +1037,8 @@ label {
 
 .news-list {
     margin-top: 30px;
+    height: 400px;
+    overflow: hidden;
 }
 
 .news-list .news-p {
@@ -1706,9 +1708,9 @@ footer {
          margin-top: -40px;
     }
      .r3 a {
-         padding-top: 10px;
+         padding-bottom: 10px;
          padding-left: 15px;
-         /* background: url(../img/cm_arrr.png) 95% center no-repeat; */
+
          border-bottom: #fff 1px solid;
          text-decoration: none;
 
