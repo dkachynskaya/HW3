@@ -7,3 +7,14 @@ $(function () {
     });
 
 });
+
+$(function () {
+    $('.assortmentMenu-list').slick({
+        infinite: false,
+        dots: false,
+        slidesToShow: 10,
+        slidesToScroll: 1,
+        prevArrow: '<div class="rm-arr first"></div>',
+        nextArrow: '<div class="rm-arr second"></div>'
+    });
+});

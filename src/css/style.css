@@ -1255,8 +1255,9 @@ label {
 
 /*RangeMenu*/
 
+
 .assortmentMenu__body {
-    font-size: 15px;
+    font-size: 80%;
     border-radius: 8px;
     height: 48px;
     background: #ff5816;
@@ -1274,13 +1275,11 @@ label {
     list-style: none;
 }
 
-.assortmentMenu-list > li {
+.assortmentMenu-list-item {
     position: relative;
-    background: #ff5816;
-    border-bottom: #c44411 3px solid;
 }
 
-.assortmentMenu-list > li:after {
+.assortmentMenu-list-item:after {
     position: absolute;
     right: 0;
     top: 0;
@@ -1291,17 +1290,21 @@ label {
     background: #ff8f62;
 }
 
-.assortmentMenu-list > li > * {
+.assortmentMenu-list-item  {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #fff;
-    font-size: 70%;
-
+    font-size: 80%;
     display: block;
-    padding: 10px 10px 0 10px;
-
+    padding: 10px 10px 6px 10px;
     text-decoration: none;
     cursor: default;
+}
+
+.assortmentMenu-list-item:hover {
+    background-color: #ff743d;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .flx {
